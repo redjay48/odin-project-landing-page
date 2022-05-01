@@ -125,18 +125,27 @@ button {
 }
 .quote {
     background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
 }
-
-.quote :first-child {
+.quote-content {
+    width: 800px;
+}
+.quote-content :first-child {
     font-size: 36px;
     font-style: italic;
     font-weight:100;
     color: #1f2937;
+    margin-bottom: 0;
 }
 
-.quote :nth-child(2) {
+.quote-content :nth-child(2) {
     font-size: 22px;
     font-weight: 900;
+    text-align: right;
 }
 
 .footer {
