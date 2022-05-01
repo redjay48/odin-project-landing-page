@@ -91,13 +91,38 @@ button {
     font-weight: bold;
 
 }
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+
+.sub-content {
+    margin: 0;
+    width: 180px;
+}
+
 .info .header {
-    background: #f9faf8;
+    /* background: #f9faf8; */
     font-size: 38px;
     font-weight: bolder;
     color: #1f2937;
+    text-align: center;
 }
 
+.info-box {
+    border: 6px solid #3882f6;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    margin: 0;
+}
+.sub-content > p {
+    font-size: 18px;
+    color: #1f2937;
+}
 .quote {
     background: #e5e7eb;
 }
